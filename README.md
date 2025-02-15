@@ -87,3 +87,19 @@ for entity_type, values in entity_dict.items():
 
 console.print(table)
 ```
+
+### 🎨 displaCy Visualization Example
+
+displaCy is a built-in visualization tool in spaCy that renders named entities in a user-friendly format.
+<!-- Example HTML Output -->
+<span class="entity">Apple <span class="label">ORG</span></span>
+is looking at buying a
+<span class="entity">U.K. <span class="label">GPE</span></span>
+startup for
+<span class="entity">$1 billion <span class="label">MONEY</span></span>.
+
+
+#### 🔗 Try it in Jupyter Notebook with:
+```bash
+displacy.render(doc, style='ent', jupyter=True)
+```
