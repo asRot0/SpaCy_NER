@@ -92,11 +92,9 @@ console.print(table)
 
 displaCy is a built-in visualization tool in spaCy that renders named entities in a user-friendly format.
 <!-- Example HTML Output -->
-<span class="entity">Apple <span class="label">ORG</span></span>
-is looking at buying a
-<span class="entity">U.K. <span class="label">GPE</span></span>
-startup for
-<span class="entity">$1 billion <span class="label">MONEY</span></span>.
+Apple <span style="background-color: #ffeb3b; padding: 3px; border-radius: 3px;">ORG</span> 
+is looking at buying a U.K. <span style="background-color: #8bc34a; padding: 3px; border-radius: 3px;">GPE</span> 
+startup for $1 billion <span style="background-color: #03a9f4; padding: 3px; border-radius: 3px;">MONEY</span>.
 
 
 #### 🔗 Try it in Jupyter Notebook with:
