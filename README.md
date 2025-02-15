@@ -91,10 +91,8 @@ console.print(table)
 ### 🎨 displaCy Visualization Example
 
 displaCy is a built-in visualization tool in spaCy that renders named entities in a user-friendly format.
-<!-- Example HTML Output -->
-Apple <span style="color: yellow;">ORG</span> is looking at buying a U.K. <span style="color: green;">GPE</span> 
-startup for $1 billion <span style="color: blue;">MONEY</span>.
 
+`Apple` **ORG** is looking at buying a `U.K.` **GPE** startup for `$1 billion` **MONEY**.
 
 #### 🔗 Try it in Jupyter Notebook with:
 ```bash
